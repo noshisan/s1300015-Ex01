@@ -21,10 +21,10 @@ class DiceGame{
         System.out.println("Total value: "  + total);
 
         if(total > 7){
-            System.out.println(name + " won");
+            System.out.println("You won");
         }
         else{
-            System.out.println(name + " lost");
+            System.out.println("You lost");
         }
     }
 }
